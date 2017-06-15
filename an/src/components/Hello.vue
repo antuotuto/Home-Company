@@ -18,7 +18,9 @@
     <div class="listStay " :class="listStayActive">
       <div class="listStayOn " >
         <div class="img-box">
-          <h2>王安安</h2>
+          <router-link to="/">
+            <h2 @click="linker">王其龙的主页</h2>
+          </router-link>
         </div>
         <ul>
           <li v-for="(nav,index) in listStays" :key="nav.title" @click="linker">
@@ -127,6 +129,9 @@ export default {
         left:0;
         transition: 0.4s;
         transform: translate(0, -100%);
+        .router-link-active{
+          background: #24c17e;
+        }
         .listStayOn {
           height: 100%;
           width: 100%;
@@ -134,9 +139,10 @@ export default {
           color: #fff;
           padding: 50px;
           box-sizing: border-box;
-          h1{
+          h2{
             text-align: left;
-            padding-left: 20px;
+            padding-left: 10px;
+            color:#fff;
           }
           ul {
               padding-left: 10px ;
@@ -161,6 +167,7 @@ export default {
                       width: 100%;
                       display: inline-block;
                       position: relative;
+                      text-align: center;
                       span {
                           height: 50px;
                           width: 50px;

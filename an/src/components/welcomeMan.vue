@@ -102,7 +102,7 @@
           <p class="some-explain">我祝愿大家能实现梦想</p>
           <p class="some-explain">让和我一样的学者不断提升</p>
           <p class="some-explain">每天我都会发布新的文章和理解</p>
-          <router-link to="/home">进入页面</router-link>
+          <router-link to="/talk">进入页面</router-link>
         </div>
         <div class="system-box ">
           <p class="free">Computer</p>
@@ -110,7 +110,7 @@
           <p class="some-explain">我最喜欢的电子产品</p>
           <p class="some-explain">我推荐大家买的电子产品</p>
           <p class="some-explain">我即将选购并且使用的电子产品</p>
-          <router-link to="/goodthing">进入页面</router-link>
+          <router-link to="/welcomeMan">进入页面</router-link>
         </div>
         <div class="system-box ">
           <p class="free">Herself</p>
@@ -118,7 +118,7 @@
           <p class="some-explain">发布自己的看法</p>
           <p class="some-explain">评论王安安的见解</p>
           <p class="some-explain">使用你自己最美的照片</p>
-          <router-link to="/myself">进入页面</router-link>
+          <router-link to="/goodthing">进入页面</router-link>
         </div>
       </div>
     </div>
@@ -289,6 +289,7 @@ export default {
           padding: 2px 2px 2px 5px;
           i{
             font-size: 32px;
+            color:#fff;
           }
           p{
             font-size: 20px;
@@ -307,6 +308,7 @@ export default {
           padding: 2px 2px 2px 5px;
           position: relative;
           i{
+            color:#fff;
             font-size: 32px;
           }
           p{

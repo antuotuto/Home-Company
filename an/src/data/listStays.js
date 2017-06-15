@@ -1,29 +1,18 @@
 export const listStays = [
   {
-    title:'用户菜单',
-    icon:'glyphicon-tasks',
-    router: '/'
-  },
-  {
-    title:'菜单管理',
+    title:'主 页',
     icon:'glyphicon-blackboard',
-    router: '/sysMoudle'
+    router: '/welcomeMan'
   },
   {
-    title:'机构管理',
+    title:'人员介绍',
+    icon:'glyphicon-blackboard',
+    router: '/goodthing'
+  },
+  {
+    title:'会议主题',
     icon:'glyphicon-piggy-bank',
-    router: '/bsTaDept'
-  },
-  {
-    title:'角色管理',
-    icon:'glyphicon-scale',
-    router: '/sysRole'
-  },
-  {
-    title:'系统管理',
-    icon:'glyphicon-yen',
-    router: '/sysSystem'
+    router: '/talk'
   }
-
 
 ];
