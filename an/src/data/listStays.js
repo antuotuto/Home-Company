@@ -13,6 +13,11 @@ export const listStays = [
     title:'会议主题',
     icon:'glyphicon-piggy-bank',
     router: '/talk'
+  },
+  {
+    title:'home',
+    icon:'glyphicon-piggy-bank',
+    router: '/home'
   }
 
 ];

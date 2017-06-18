@@ -3,8 +3,20 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-
+import Vuex from 'vuex'
+Vue.use(Vuex)
 Vue.config.productionTip = false
+
+const store = new Vuex.Store({
+  state: {
+    an:null
+  },
+  mutations: {
+    setWeight(state,an){
+      state.an = an;
+    }
+  }
+})
 
 // 全局样式
 import '@/assets/iconfont/iconfont.css'
@@ -16,6 +28,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 new Vue({
   el: '#app',
   router,
+  store,
   template: '<App/>',
   components: { App }
 })

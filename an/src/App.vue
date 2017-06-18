@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <hello></hello>
+    <hello :an="yao"></hello>
   </div>
 </template>
 
@@ -9,6 +9,11 @@ import hello from '@/components/Hello'
 
 export default {
   name: 'app',
+  data () {
+    return{
+      yao:'2'
+    }
+  },
   components: {
       hello
   }

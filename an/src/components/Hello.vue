@@ -19,7 +19,8 @@
       <div class="listStayOn " >
         <div class="img-box">
           <router-link to="/">
-            <h2 @click="linker">王其龙的主页</h2>
+            <h2 @click="linker">王安安的主页</h2>
+            {{yaos}}
           </router-link>
         </div>
         <ul>
@@ -49,7 +50,8 @@ export default {
       currentView: 'view-main',
       listStays: listStays,
       listStayActive: '',
-      showBlank: ''
+      showBlank: '',
+      yaos:this.an
     }
   },
   methods:{
@@ -74,7 +76,8 @@ export default {
       this.showBlank = '';
       this.listStayActive = '';
     }
-  }
+  },
+  props:["an"]
 }
 </script>
 

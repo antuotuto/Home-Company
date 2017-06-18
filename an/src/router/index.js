@@ -6,6 +6,8 @@ import Goodthing from '@/components/Goodthing'
 import Like from '@/components/Like'
 import one from '@/components/one'
 import talk from '@/pages/talk'
+import talking from '@/pages/talking'
+import home from '@/pages/home'
 
 Vue.use(Router)
 
@@ -35,6 +37,16 @@ export default new Router({
       path: '/talk',
       name: 'talk',
       component: talk
+    },
+    {
+      path: '/talking/:id',
+      name: 'talking',
+      component: talking
+    },
+    {
+      path: '/home',
+      name: 'home',
+      component: home
     }
   ]
 })

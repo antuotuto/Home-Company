@@ -35,7 +35,6 @@ export default {
   name: 'like',
   data() {
     return {
-      goodthings: goodthings,
       goodthing: {},
       wantOther: false
     }

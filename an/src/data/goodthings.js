@@ -7,8 +7,6 @@ const goodthings = [
     router:'http://www.baidu.com',
     id:0
   }
-
-
 ]
 
 export {goodthings}
