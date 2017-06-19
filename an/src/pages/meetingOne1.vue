@@ -2,8 +2,8 @@
   <div class="meetingOne1">
 
     <div class="four">
-      <h1>职业操守、职业道德</h1>
-      <h3>详细讲解我们所经营品种的疗效、特点、利润点等，如有相同品种不同厂家的，可讲解我们品种的优势所在，但要以“其它厂家”作为比较对象，切不可与对方厂家的业务员发生言语甚至肢体冲突。</h3>
+      <h1 class=" animated  fadeInLeft delay_300">职业操守、职业道德</h1>
+      <h3 class=" animated  fadeInLeft delay_200">详细讲解我们所经营品种的疗效、特点、利润点等，如有相同品种不同厂家的，可讲解我们品种的优势所在，但要以“其它厂家”作为比较对象，切不可与对方厂家的业务员发生言语甚至肢体冲突。</h3>
       <router-link to="/meetingOne2">
         <button type="button" name="button">下一页</button>
       </router-link>

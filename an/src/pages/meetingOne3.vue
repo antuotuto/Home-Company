@@ -1,7 +1,7 @@
 <template>
   <div class="meetingOne3">
     <div class="six">
-      <h1>谢谢参与</h1>
+      <h1 class=" animated  fadeInDown delay_300">谢谢参与</h1>
       <router-link to="/meetingOn">
         <button type="button" name="button">主页</button>
       </router-link>
@@ -45,6 +45,10 @@ export default {
       margin: 0;
       font-size: 80px;
       letter-spacing: 20px;
+      background: #F6C90E;
+      color:#303841;
+      text-align: center;
+      padding: 30px;
     }
     h3{
       letter-spacing: 2px;

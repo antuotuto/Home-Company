@@ -1,8 +1,8 @@
 <template>
   <div class="meeting1">
     <div class="one">
-      <h1>销售员岗前培训会议</h1>
-      <h3>主讲人 : 王其龙</h3>
+      <h1 class=" animated  fadeInLeft delay_100">销售员岗前培训会议</h1>
+      <h3 class=" animated  fadeInLeft delay_200">主讲人 : 王其龙</h3>
       <router-link to="/meetingOne">
         <button type="button" name="button">下一页</button>
       </router-link>

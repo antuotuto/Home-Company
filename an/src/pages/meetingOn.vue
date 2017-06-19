@@ -1,7 +1,7 @@
 <template>
   <div class="meeting1">
     <div class="one">
-      <h1>品牌铸就我们成功</h1>
+      <h1 class=" animated  fadeInLeft delay_100">品牌铸就我们成功</h1>
       <router-link to="/press">
         <button type="button" name="button">下一页</button>
       </router-link>
@@ -46,6 +46,9 @@ export default {
       letter-spacing: 10px;
       background: #2E4750;
       padding: 60px;
+      background: #F6C90E;
+      color:#303841;
+      text-align: center;
     }
     h3{
       letter-spacing: 2px;
