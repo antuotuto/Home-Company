@@ -41,7 +41,7 @@ export default {
       width:100%;
       text-align: center;
       background: #222831;
-      padding-top: 10vh;
+      padding-top: 30px;
       position: relative;
       text-align: left;
       padding-left: 30px;

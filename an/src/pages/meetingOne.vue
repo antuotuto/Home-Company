@@ -42,7 +42,7 @@ export default {
       text-align: left;
       background: #222831;
       padding-left: 30px;
-      padding-top: 50px;
+      padding-top: 30px;
       position: relative;
       color:#F7F7F7;
       h1{
