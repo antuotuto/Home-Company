@@ -69,6 +69,7 @@ export default {
         line-height: 25px;
         font-size: 18px;
         padding-right: 20px;
+        padding-left: 15px;
       }
       button{
         height:70px;

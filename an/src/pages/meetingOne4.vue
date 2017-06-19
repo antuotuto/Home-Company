@@ -70,6 +70,7 @@ export default {
         line-height: 25px;
         letter-spacing: 2px;
         padding-bottom: 50px;
+        padding-left: 15px;
         background: #2E4750;
         margin-top: 20px;
         padding: 50px;
