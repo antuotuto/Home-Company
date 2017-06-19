@@ -2,14 +2,14 @@
   <div class="meetingOne2">
 
     <div class="five">
-      <h1 class=" animated  fadeInLeft delay_100">产品知识点讲解</h1>
-      <h3 class=" animated  fadeInLeft delay_200">小儿咳嗽糖浆</h3>
-      <h4 class=" animated  fadeInLeft delay_300">进口原料、全国独家、中南大学湘雅医院、湖南中医附医、湖南省妇幼保健院常用药</h4>
-      <h3 class=" animated  fadeInLeft delay_400">右旋布洛芬悬溶液</h3>
-      <h4 class=" animated  fadeInLeft delay_500">全国独家品种、全国各大型医院常用药</h4>
-      <h3 class=" animated  fadeInLeft delay_600">头孢克肟颗粒</h3>
-      <h4 class=" animated  fadeInLeft delay_700">特点： 全国知名品牌、厂家（广州白云山）</h4>
-      <router-link to="/meetingOne5">
+      <h1 class=" animated  fadeInLeft delay_100">产品知识点讲解【三】</h1>
+      <h3 class=" animated  fadeInLeft delay_200">硝呋太尔胶囊（左通）</h3>
+      <h4 class=" animated  fadeInLeft delay_300">适用于细菌性阴道病、滴虫性阴道炎、念球菌性外阴阴道病；泌尿系统感染；消化道阿米巴病及贾滴虫病</h4>
+      <h3 class=" animated  fadeInLeft delay_400">硝呋太尔制霉素阴道软胶囊（伊朗）</h3>
+      <h4 class=" animated  fadeInLeft delay_500">适用于细菌性阴道病、滴虫性阴道炎、念球菌性外阴阴道病、阴道混合感染</h4>
+      <h3 class=" animated  fadeInLeft delay_600">红花逍遥胶囊（OTC）</h3>
+      <h4 class=" animated  fadeInLeft delay_700">舒肝、理气、活血。用于肝气不舒所致的胸胁胀痛，头晕目眩，食欲减退，月经不调，乳房胀痛或伴见颜面黄褐斑</h4>
+      <router-link to="/meetingOne3">
         <button type="button" name="button">下一页</button>
       </router-link>
     </div>

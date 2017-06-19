@@ -2,14 +2,15 @@
   <div class="meetingOne2">
 
     <div class="five">
-      <h1 class=" animated  fadeInLeft delay_100">产品知识点讲解</h1>
-      <h3 class=" animated  fadeInLeft delay_200">小儿咳嗽糖浆</h3>
-      <h4 class=" animated  fadeInLeft delay_300">进口原料、全国独家、中南大学湘雅医院、湖南中医附医、湖南省妇幼保健院常用药</h4>
-      <h3 class=" animated  fadeInLeft delay_400">右旋布洛芬悬溶液</h3>
-      <h4 class=" animated  fadeInLeft delay_500">全国独家品种、全国各大型医院常用药</h4>
-      <h3 class=" animated  fadeInLeft delay_600">头孢克肟颗粒</h3>
-      <h4 class=" animated  fadeInLeft delay_700">特点： 全国知名品牌、厂家（广州白云山）</h4>
-      <router-link to="/meetingOne5">
+      <h1 class=" animated  fadeInLeft delay_100">产品知识点讲解【二】</h1>
+      <h3 class=" animated  fadeInLeft delay_200">羧甲司坦口服液</h3>
+      <h4 class=" animated  fadeInLeft delay_300">全国仅二家生产 白云山生产 慢性支气管炎 哮喘引起的痰液粘稠 咳嗽困难</h4>
+      <h3 class=" animated  fadeInLeft delay_400">头孢丙烯颗粒</h3>
+      <h4 class=" animated  fadeInLeft delay_500">白云山生产 咽痛 扁桃体炎 肺炎链球菌 肺炎 上呼吸道感染 下呼吸道感染 皮肤和皮肤软组织</h4>
+      <h3 class=" animated  fadeInLeft delay_600">阿司匹林克拉维酸钾颗粒</h3>
+      <h4 class=" animated  fadeInLeft delay_700">白云山生产 上呼吸道感染 下呼吸道感染 尿路感染 中耳炎 皮肤软组织</h4>
+
+      <router-link to="/meetingOne6">
         <button type="button" name="button">下一页</button>
       </router-link>
     </div>
