@@ -44,7 +44,7 @@ export default {
       padding-top: 10vh;
       position: relative;
       text-align: left;
-      padding-left: 50px;
+      padding-left: 30px;
       color:#F7F7F7;
       border-top: 1px solid #eee;
       h1{

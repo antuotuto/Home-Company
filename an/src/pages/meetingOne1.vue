@@ -41,7 +41,7 @@ export default {
       width:100%;
       text-align: left;
       background: #222831;
-      padding-left: 50px;
+      padding-left: 30px;
       padding-top: 10vh;
       position: relative;
       color:#F7F7F7;

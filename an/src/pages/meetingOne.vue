@@ -41,7 +41,7 @@ export default {
       width:100%;
       text-align: left;
       background: #222831;
-      padding-left: 50px;
+      padding-left: 30px;
       padding-top: 50px;
       position: relative;
       color:#F7F7F7;
@@ -66,7 +66,7 @@ export default {
         line-height: 30px;
         background: #2E4750;
         margin-top: 40px;
-        padding: 50px;
+        padding: 40px;
       }
       button{
         height:70px;
