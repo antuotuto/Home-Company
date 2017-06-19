@@ -39,7 +39,7 @@ export default {
     height:100%;
     width:100%;
     text-align: left;
-    background: #303841;
+    background: #222831;
     padding-left: 50px;
     padding-top: 10vh;
     position: relative;
@@ -57,7 +57,7 @@ export default {
     h3{
       letter-spacing: 2px;
       padding-top: 50px;
-      font-size: 45px;
+      font-size: 40px;
       padding-left: 50px;
     }
     h4{

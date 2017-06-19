@@ -39,7 +39,7 @@ export default {
     height:100%;
     width:100%;
     text-align: left;
-    background: #303841;
+    background: #222831;
     padding-left: 50px;
     padding-top: 10vh;
     position: relative;
@@ -55,7 +55,7 @@ export default {
       line-height: 65px;
       font-size: 45px;
       background: #2E4750;
-      padding: 50px;
+      padding: 100px;
     }
     button{
       height:70px;

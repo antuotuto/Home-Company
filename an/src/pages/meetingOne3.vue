@@ -37,8 +37,8 @@ export default {
     height:100%;
     width:100%;
     text-align: center;
-    background: #303841;
-    padding-top: 45vh;
+    background: #222831;
+    padding-top: 40vh;
     position: relative;
     color:#F7F7F7;
     h1{
@@ -48,7 +48,7 @@ export default {
       background: #F6C90E;
       color:#303841;
       text-align: center;
-      padding: 30px;
+      padding: 50px;
     }
     h3{
       letter-spacing: 2px;

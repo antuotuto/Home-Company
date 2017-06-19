@@ -39,7 +39,7 @@ export default {
     height:100%;
     width:100%;
     text-align: center;
-    background: #303841;
+    background: #222831;
     padding-top: 10vh;
     position: relative;
     text-align: left;

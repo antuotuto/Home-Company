@@ -1,8 +1,8 @@
 <template>
   <div class="meeting1">
     <div class="one">
-      <h1 class=" animated  fadeInLeft delay_100">销售员岗前培训会议</h1>
-      <h3 class=" animated  fadeInLeft delay_200">主讲人 : 王其龙</h3>
+      <h1 class=" animated  fadeInDown delay_100">销售员岗前培训会议</h1>
+      <h3 class=" animated  fadeInDown delay_200">主讲人 : 王其龙</h3>
       <router-link to="/meetingOne">
         <button type="button" name="button">下一页</button>
       </router-link>
@@ -37,7 +37,7 @@ export default {
     height:100%;
     width:100%;
     text-align: center;
-    background: #303841;
+    background: #222831;
     padding-top: 35vh;
     color:#F7F7F7;
     position: relative;
