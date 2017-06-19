@@ -53,7 +53,7 @@ export default {
       color:#F7F7F7;
       h1{
         margin: 0;
-        font-size: 30px;
+        font-size: 25px;
         letter-spacing: 3px;
         padding-bottom: 15px;
       }
