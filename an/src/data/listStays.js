@@ -17,7 +17,7 @@ export const listStays = [
   {
     title:'最新会议',
     icon:'glyphicon-piggy-bank',
-    router: '/press'
+    router: '/meetingOn'
   }
 
 ];
