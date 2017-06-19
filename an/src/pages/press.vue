@@ -1,16 +1,15 @@
 <template>
-  <div class="home">
-
-
-
+  <div class="press">
+    <meeting1></meeting1>
   </div>
 </template>
 
 <script>
+import meeting1 from '@/pages/meeting1'
 import { mapGetters } from 'vuex';
 
 export default {
-  name: 'home',
+  name: 'press',
   data () {
     return {
 
@@ -20,11 +19,18 @@ export default {
 
   },
   created() {
-    this.changeimg_big = this.$store.state.an;
+
+  },
+  components: {
+      meeting1
   }
 }
 </script>
 
 <style scoped lang="scss">
+.press{
+  height:100%;
+  width:100%;
+}
 
 </style>

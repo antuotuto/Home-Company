@@ -15,9 +15,9 @@ export const listStays = [
     router: '/talk'
   },
   {
-    title:'home',
+    title:'最新会议',
     icon:'glyphicon-piggy-bank',
-    router: '/home'
+    router: '/press'
   }
 
 ];

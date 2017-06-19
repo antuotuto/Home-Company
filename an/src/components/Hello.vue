@@ -19,8 +19,7 @@
       <div class="listStayOn " >
         <div class="img-box">
           <router-link to="/">
-            <h2 @click="linker">王安安的主页</h2>
-            {{yaos}}
+            <h2 @click="linker">王安安的主页{{yaos}}</h2>
           </router-link>
         </div>
         <ul>
@@ -182,6 +181,117 @@ export default {
                   }
                   &:hover {
                       background: #24c17e;
+                  }
+              }
+          }
+      }
+      &.active{
+        transform: translate(0, 0);
+      }
+    }
+  }
+}
+
+@media screen and (min-width:950px){
+  .hello{
+    height:100%;
+    width:100%;
+    position: relative;
+    .content-link{
+      position: absolute;
+      top:0;
+      left:0;
+      height:100%;
+      width:100%;
+      overflow: scroll;
+    }
+    .btn {
+      position: fixed;
+      top: 5px;
+      right: 5px;
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+      padding: 0;
+      border: 0;
+      background: rgba(0, 0, 0, 0.7);
+      // border-radius: 3px;
+      outline: none;
+      font-weight: bold;
+      font-size: 17px;
+      z-index: 1000;
+      color: #fff;
+      span {
+          line-height: 39px;
+      }
+    }
+    .router-fade-enter-active,
+    .router-fade-leave-active {
+        transition: opacity 0.3s;
+    }
+    .router-fade-enter,
+    .router-fade-leave-active {
+        opacity: 0;
+    }
+    .listStay {
+        height: 100%;
+        width: 250px;
+        position: fixed;
+        top:0;
+        left:0;
+        z-index: 100;
+        transition: 0.4s;
+        transform: translate(-250px, 0);
+        box-shadow: 3px 3px 3px rgba(0,0,0,.2);
+        .router-link-active{
+          background: #000;
+        }
+        .listStayOn {
+          height: 100%;
+          width: 100%;
+          background: rgba(0, 68, 50,.95);
+          color: #fff;
+          padding: 10px;
+          box-sizing: border-box;
+          h2{
+            text-align: center;
+            padding-left: 10px;
+            color:#fff;
+          }
+          ul {
+              padding:20px 0 0 0;
+              width:100%;
+              margin: 0 auto;
+              box-sizing: border-box;
+              li {
+                  height: 50px;
+                  display: block;
+                  line-height: 50px;
+                  font-size: 16px;
+                  animation: listTwo 0.3s;
+                  color: #fff;
+                  user-select: none;
+                  border-left: 0;
+                  transition: 0.6s;
+                  a {
+                      color: #fff;
+                      text-decoration: none;
+                      height: 100%;
+                      width: 100%;
+                      display: inline-block;
+                      position: relative;
+                      text-align: center;
+                      span {
+                          height: 50px;
+                          width: 50px;
+                          line-height: 50px;
+                          position: absolute;
+                          top: 0;
+                          left: 0;
+                      }
+                  }
+                  &:hover {
+                      background: #000;
                   }
               }
           }

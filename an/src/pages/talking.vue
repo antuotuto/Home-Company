@@ -55,7 +55,10 @@ export default {
 <style scoped lang="scss">
 .talking{
   font-weight: bold;
+  text-align: center;
+  height:100%;
   header{
+    height:100%;
     p{
       margin: 0;
     }
