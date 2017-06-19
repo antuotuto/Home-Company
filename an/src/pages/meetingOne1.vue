@@ -31,44 +31,91 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.meetingOne1{
-  color:#000;
-  height:100%;
-  width:100%;
-  .four{
+@media screen and (max-width:940px){
+  .meetingOne1{
+    color:#000;
     height:100%;
     width:100%;
-    text-align: left;
-    background: #222831;
-    padding-left: 50px;
-    padding-top: 10vh;
-    position: relative;
-    color:#F7F7F7;
-    h1{
-      margin: 0;
-      font-size: 65px;
-      letter-spacing: 5px;
-      padding-bottom: 50px;
+    .four{
+      height:100%;
+      width:100%;
+      text-align: left;
+      background: #222831;
+      padding-left: 50px;
+      padding-top: 10vh;
+      position: relative;
+      color:#F7F7F7;
+      h1{
+        margin: 0;
+        font-size: 30px;
+        letter-spacing: 2px;
+        margin-bottom: 10vh;
+      }
+      h3{
+        letter-spacing: 1px;
+        line-height: 30px;
+        font-size: 20px;
+        background: #2E4750;
+        padding: 55px;
+      }
+      button{
+        height:70px;
+        width:70px;
+        background: #F6C90E;
+        color:#2E4750;
+        font-weight: bold;
+        border: 0;
+        position: absolute;
+        bottom: 15px;
+        right:15px;
+        border-radius: 70px;
+        letter-spacing: 3px;
+      }
     }
-    h3{
-      letter-spacing: 2px;
-      line-height: 65px;
-      font-size: 45px;
-      background: #2E4750;
-      padding: 100px;
-    }
-    button{
-      height:70px;
-      width:70px;
-      background: #F6C90E;
-      color:#2E4750;
-      font-weight: bold;
-      border: 0;
-      position: absolute;
-      bottom: 15px;
-      right:15px;
-      border-radius: 70px;
-      letter-spacing: 3px;
+  }
+}
+
+
+@media screen and (min-width:950px){
+  .meetingOne1{
+    color:#000;
+    height:100%;
+    width:100%;
+    .four{
+      height:100%;
+      width:100%;
+      text-align: left;
+      background: #222831;
+      padding-left: 50px;
+      padding-top: 10vh;
+      position: relative;
+      color:#F7F7F7;
+      h1{
+        margin: 0;
+        font-size: 65px;
+        letter-spacing: 5px;
+        padding-bottom: 50px;
+      }
+      h3{
+        letter-spacing: 2px;
+        line-height: 65px;
+        font-size: 45px;
+        background: #2E4750;
+        padding: 100px;
+      }
+      button{
+        height:70px;
+        width:70px;
+        background: #F6C90E;
+        color:#2E4750;
+        font-weight: bold;
+        border: 0;
+        position: absolute;
+        bottom: 15px;
+        right:15px;
+        border-radius: 70px;
+        letter-spacing: 3px;
+      }
     }
   }
 }

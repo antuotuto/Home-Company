@@ -31,61 +31,124 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.meetingOne4{
-  color:#000;
-  height:100%;
-  width:100%;
-  .three{
+@media screen and (max-width:940px){
+  .meetingOne4{
+    color:#000;
     height:100%;
     width:100%;
-    text-align: center;
-    background: #222831;
-    padding-top: 10vh;
-    position: relative;
-    text-align: left;
-    padding-left: 50px;
-    color:#F7F7F7;
-    border-top: 1px solid #eee;
-    h1{
-      margin: 0;
-      font-size: 65px;
-      letter-spacing: 5px;
-      background: #F6C90E;
-      color:#303841;
-      width:500px;
+    .three{
+      height:100%;
+      width:100%;
       text-align: center;
-      padding: 30px;
-    }
-    h3{
-      letter-spacing: 2px;
-      padding-top: 80px;
-      font-size: 45px;
+      background: #222831;
+      padding-top: 10vh;
+      position: relative;
+      text-align: left;
       padding-left: 50px;
-    }
-    h4{
-      font-size: 32px;
-      line-height: 50px;
-      padding-top: 50px;
-      padding-bottom: 50px;
-      background: #2E4750;
-      padding-left: 50px;
-      margin-top: 100px;
-      padding-right: 50px;
-    }
-    button{
-      height:70px;
-      width:70px;
-      background: #F6C90E;
-      color:#2E4750;
-      font-weight: bold;
-      border: 0;
-      position: absolute;
-      bottom: 15px;
-      right:15px;
-      border-radius: 70px;
-      letter-spacing: 3px;
+      color:#F7F7F7;
+      border-top: 1px solid #eee;
+      h1{
+        margin: 0;
+        font-size: 20px;
+        letter-spacing: 5px;
+        background: #F6C90E;
+        color:#303841;
+        width:300px;
+        text-align: center;
+        padding: 30px;
+      }
+      h3{
+        letter-spacing: 2px;
+        padding-top: 20px;
+        font-size: 25px;
+        padding: 20px 20px 20px 0;
+        line-height: 30px;
+        letter-spacing: 2px;
+      }
+      h4{
+        font-size: 18px;
+        line-height: 25px;
+        letter-spacing: 2px;
+        padding-bottom: 50px;
+        background: #2E4750;
+        margin-top: 20px;
+        padding: 50px;
+      }
+      button{
+        height:70px;
+        width:70px;
+        background: #F6C90E;
+        color:#2E4750;
+        font-weight: bold;
+        border: 0;
+        position: absolute;
+        bottom: 15px;
+        right:15px;
+        border-radius: 70px;
+        letter-spacing: 3px;
+      }
     }
   }
 }
+
+@media screen and (min-width:950px){
+  .meetingOne4{
+    color:#000;
+    height:100%;
+    width:100%;
+    .three{
+      height:100%;
+      width:100%;
+      text-align: center;
+      background: #222831;
+      padding-top: 10vh;
+      position: relative;
+      text-align: left;
+      padding-left: 50px;
+      color:#F7F7F7;
+      border-top: 1px solid #eee;
+      h1{
+        margin: 0;
+        font-size: 65px;
+        letter-spacing: 5px;
+        background: #F6C90E;
+        color:#303841;
+        width:500px;
+        text-align: center;
+        padding: 30px;
+      }
+      h3{
+        letter-spacing: 2px;
+        padding-top: 80px;
+        font-size: 45px;
+        padding-left: 50px;
+      }
+      h4{
+        font-size: 32px;
+        line-height: 50px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background: #2E4750;
+        padding-left: 50px;
+        margin-top: 100px;
+        padding-right: 50px;
+      }
+      button{
+        height:70px;
+        width:70px;
+        background: #F6C90E;
+        color:#2E4750;
+        font-weight: bold;
+        border: 0;
+        position: absolute;
+        bottom: 15px;
+        right:15px;
+        border-radius: 70px;
+        letter-spacing: 3px;
+      }
+    }
+  }
+}
+
 
 </style>

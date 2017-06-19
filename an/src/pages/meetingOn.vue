@@ -29,46 +29,93 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.meeting1{
-  height:100%;
-  width:100%;
-  .one{
+@media screen and (max-width:940px){
+  .meeting1{
     height:100%;
     width:100%;
-    text-align: center;
-    background: #303841;
-    padding-top: 40vh;
-    color:#F7F7F7;
-    position: relative;
-    h1{
-      margin: 0;
-      font-size: 80px;
-      letter-spacing: 10px;
-      background: #2E4750;
-      padding: 60px;
-      background: #F6C90E;
-      color:#303841;
+    .one{
+      height:100%;
+      width:100%;
       text-align: center;
-    }
-    h3{
-      letter-spacing: 2px;
-      padding-top: 20px;
-    }
-    button{
-      height:70px;
-      width:70px;
-      background: #F6C90E;
-      color:#2E4750;
-      font-weight: bold;
-      border: 0;
-      position: absolute;
-      bottom: 15px;
-      right:15px;
-      border-radius: 70px;
-      letter-spacing: 3px;
+      background: #303841;
+      padding-top: 40vh;
+      color:#F7F7F7;
+      position: relative;
+      h1{
+        margin: 0;
+        font-size: 25px;
+        letter-spacing: 5px;
+        background: #2E4750;
+        font-weight: 600;
+        padding: 50px;
+        background: #F6C90E;
+        color:#303841;
+        text-align: center;
+      }
+      h3{
+        letter-spacing: 2px;
+        padding-top: 20px;
+      }
+      button{
+        height:70px;
+        width:70px;
+        background: #F6C90E;
+        color:#2E4750;
+        font-weight: bold;
+        border: 0;
+        position: absolute;
+        bottom: 15px;
+        right:15px;
+        border-radius: 70px;
+        letter-spacing: 3px;
+      }
     }
   }
 }
+
+@media screen and (min-width:950px){
+    .meeting1{
+    height:100%;
+    width:100%;
+    .one{
+      height:100%;
+      width:100%;
+      text-align: center;
+      background: #303841;
+      padding-top: 40vh;
+      color:#F7F7F7;
+      position: relative;
+      h1{
+        margin: 0;
+        font-size: 80px;
+        letter-spacing: 10px;
+        background: #2E4750;
+        padding: 60px;
+        background: #F6C90E;
+        color:#303841;
+        text-align: center;
+      }
+      h3{
+        letter-spacing: 2px;
+        padding-top: 20px;
+      }
+      button{
+        height:70px;
+        width:70px;
+        background: #F6C90E;
+        color:#2E4750;
+        font-weight: bold;
+        border: 0;
+        position: absolute;
+        bottom: 15px;
+        right:15px;
+        border-radius: 70px;
+        letter-spacing: 3px;
+      }
+    }
+  }
+}
+
 
 
 

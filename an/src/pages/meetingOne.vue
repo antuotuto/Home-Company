@@ -31,7 +31,62 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.meetingOne{
+@media screen and (max-width:940px){
+  .meetingOne{
+    color:#000;
+    height:100%;
+    width:100%;
+    .two{
+      height:100%;
+      width:100%;
+      text-align: left;
+      background: #222831;
+      padding-left: 50px;
+      padding-top: 50px;
+      position: relative;
+      color:#F7F7F7;
+      h1{
+        margin: 0;
+        font-size: 20px;
+        letter-spacing: 5px;
+        line-height: 25px;
+        background: #F6C90E;
+        color:#303841;
+        width:100px;
+        text-align: center;
+        padding: 30px;
+      }
+      h3{
+        letter-spacing: 2px;
+        padding-top: 20px;
+        font-size: 22px;
+      }
+      h4{
+        font-size: 21px;
+        line-height: 30px;
+        background: #2E4750;
+        margin-top: 40px;
+        padding: 50px;
+      }
+      button{
+        height:70px;
+        width:70px;
+        background: #F6C90E;
+        color:#2E4750;
+        font-weight: bold;
+        border: 0;
+        position: absolute;
+        bottom: 15px;
+        right:15px;
+        border-radius: 70px;
+        letter-spacing: 3px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width:950px){
+  .meetingOne{
   color:#000;
   height:100%;
   width:100%;
@@ -82,6 +137,9 @@ export default {
     }
   }
 }
+
+}
+
 
 
 </style>
