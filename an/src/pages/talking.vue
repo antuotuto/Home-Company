@@ -27,6 +27,8 @@
 <script>
 import {talks} from '@/data'
 var marked = require('marked');
+import '@/assets/css/github-markdown.css'
+
 
 
 export default {

@@ -27,8 +27,11 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   height:100%;
   width:100%;
+  button{
+    outline: none;
+  }
 }
-button{
-  outline: none;
-}
+
+
+
 </style>

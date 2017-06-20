@@ -82,6 +82,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+$fristColor: rgba(48, 56, 65,.96);
 @media screen and (max-width:750px){
   .hello{
     height:100%;
@@ -129,15 +130,16 @@ export default {
         position: fixed;
         top:0;
         left:0;
+        z-index: 100;
         transition: 0.4s;
         transform: translate(0, -100%);
         .router-link-active{
-          background: #24c17e;
+          background: #000;
         }
         .listStayOn {
           height: 100%;
           width: 100%;
-          background: rgba(0, 68, 50,.95);
+          background : $fristColor;
           color: #fff;
           padding: 50px;
           box-sizing: border-box;
@@ -197,13 +199,13 @@ export default {
     height:100%;
     width:100%;
     position: relative;
+    $fristColor: #303841;
     .content-link{
       position: absolute;
       top:0;
       left:0;
       height:100%;
       width:100%;
-      overflow: scroll;
     }
     .btn {
       position: fixed;
@@ -249,8 +251,8 @@ export default {
         .listStayOn {
           height: 100%;
           width: 100%;
-          background: rgba(0, 68, 50,.95);
           color: #fff;
+          background : $fristColor;
           padding: 10px;
           box-sizing: border-box;
           h2{
@@ -298,6 +300,20 @@ export default {
       }
       &.active{
         transform: translate(0, 0);
+      }
+    }
+    .blank {
+      display: none;
+      height: 100%;
+      width: 100%;
+      background: rgba(0, 0, 0, .5);
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 90;
+      overflow: hidden;
+      &.active {
+        display: block;
       }
     }
   }

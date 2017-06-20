@@ -18,6 +18,16 @@ export const listStays = [
     title:'最新会议',
     icon:'glyphicon-piggy-bank',
     router: '/meetingOn'
+  },
+  {
+    title:'厂家合作',
+    icon:'glyphicon-piggy-bank',
+    router: '/chairman'
+  },
+  {
+    title:'官网配色',
+    icon:'glyphicon-piggy-bank',
+    router: '/colorful'
   }
 
 ];

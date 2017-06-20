@@ -22,6 +22,7 @@ const store = new Vuex.Store({
 import '@/assets/iconfont/iconfont.css'
 import '@/assets/css/animate.css'
 import '@/assets/css/delay.css'
+import '@/assets/css/an.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 /* eslint-disable no-new */

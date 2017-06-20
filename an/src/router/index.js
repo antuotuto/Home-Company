@@ -17,6 +17,10 @@ import meetingOne2 from '@/pages/meetingOne2'
 import meetingOne3 from '@/pages/meetingOne3'
 import meetingOne5 from '@/pages/meetingOne5'
 import meetingOne6 from '@/pages/meetingOne6'
+import colorful from '@/components/colorful'
+import chairman from '@/components/chairman/chairman'
+import chairman0 from '@/components/chairman/chairman0'
+import chairman1 from '@/components/chairman/chairman1'
 
 
 Vue.use(Router)
@@ -102,6 +106,29 @@ export default new Router({
       path: '/meetingOne6',
       name: 'meetingOne6',
       component: meetingOne6
+    },
+    {
+      path: '/colorful',
+      name: 'colorful',
+      component: colorful
+    },
+    {
+      path: '/chairman',
+      name: 'chairman',
+      component: chairman,
+      children:[
+        {
+          path:'/chairman/',
+          name:'chairman0',
+          component: chairman0
+        },
+        {
+          path:'/chairman/chairman1',
+          name:'chairman1',
+          component: chairman1
+        }
+      ]
     }
+
   ]
 })
