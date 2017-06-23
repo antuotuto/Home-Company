@@ -4,7 +4,7 @@
       <div class="versions">
         <p>2.0</p>
       </div>
-      <p class="header-text">WEB端 财资易通视觉设计规范</p>
+      <p class="header-text">WEB端 王安安视觉设计规范</p>
     </header>
     <main>
       <div class="box-out">

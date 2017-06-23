@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Hello from '@/components/Hello'
 import welcomeMan from '@/components/welcomeMan'
 import Goodthing from '@/components/Goodthing'
+import designCode from '@/components/designCode'
 import Like from '@/components/Like'
 import one from '@/components/one'
 import talk from '@/pages/talk'
@@ -111,6 +112,11 @@ export default new Router({
       path: '/colorful',
       name: 'colorful',
       component: colorful
+    },
+    {
+      path: '/designCode',
+      name: 'designCode',
+      component: designCode
     },
     {
       path: '/chairman',

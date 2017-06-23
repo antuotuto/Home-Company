@@ -28,6 +28,13 @@ export const listStays = [
     title:'官网配色',
     icon:'glyphicon-piggy-bank',
     router: '/colorful'
+  },
+  {
+    title:'设计规范',
+    icon:'glyphicon-piggy-bank',
+    router: '/designCode'
   }
+
+
 
 ];
